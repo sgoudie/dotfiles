@@ -1,0 +1,14 @@
+# If getting an error saying another username is not allowed, make sure to
+# do `ssh-add ~/.ssh/key-file-name`.
+
+Host sgoudie
+    User git
+    HostName github.com
+    PreferredAuthentications publickey
+    IdentityFile ~/.ssh/hello@sgoudie.com
+
+Host doopoll
+    User git
+    HostName github.com
+    PreferredAuthentications publickey
+    IdentityFile ~/.ssh/sam@doopoll.co

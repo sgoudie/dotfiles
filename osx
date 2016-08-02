@@ -1,0 +1,2 @@
+# Change default screenshot location to /osx-screenshots
+defaults write com.apple.screencapture location ~/osx-screenshots && killall SystemUIServer
