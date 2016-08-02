@@ -90,8 +90,11 @@ npm install -g eslint
 apm install linter
 apm install minimap
 apm install linter-eslint
+apm install linter-less
 apm install todo-show
 apm install emmet
+apm install react
+apm install autoclose-html
 
 echo -e "${green}✓ Blammo! NPM packages installed.${reset}"
 sleep 2
