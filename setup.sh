@@ -75,7 +75,7 @@ echo -e "${green}✓ Blammo! Meteor installed.${reset}"
 sleep 2
 
 # Install NPM packages.
-npm install -g trash
+npm install -g trash trash-cli
 npm install -g grunt-cli
 npm install -g gulp
 npm install -g eslint
