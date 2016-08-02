@@ -1,0 +1,18 @@
+# git aliases
+alias gs='git status'
+alias gc='git commit'
+alias gl='git log'
+alias ga='git add'
+alias gpo='git push origin '
+alias gpom='git push origin master'
+alias gpuom='git pull origin master'
+alias gp='git push '
+
+# doopoll aliases
+alias dp='cd ~/Dev/doopoll-app'
+
+# OSX aliases
+alias hideFiles='defaults write com.apple.finder AppleShowAllFiles FALSE && killall Finder'
+alias showFiles='defaults write com.apple.finder AppleShowAllFiles TRUE && killall Finder'
+alias hideDesktop='defaults write com.apple.finder CreateDesktop false && killall Finder'
+alias showDesktop='defaults write com.apple.finder CreateDesktop true && killall Finder'

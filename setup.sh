@@ -68,6 +68,12 @@ brew cask install transmit
 echo -e "${green}✓ Blammo! OSX applications installed.${reset}"
 sleep 2
 
+# Source symlinks *after* installing dependencies that may error out.
+source symlinks
+
+echo -e "${green}✓ Blammo! Symlinks copied.${reset}"
+sleep 2
+
 # Install Meteor
 curl https://install.meteor.com/ | sh
 

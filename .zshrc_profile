@@ -1,0 +1,5 @@
+# Import $PATH
+source ~/dotfiles/zshrc/path
+
+# Import Aliases
+source ~/dotfiles/zshrc/aliases

@@ -1,0 +1,7 @@
+# .zsh_profile
+cd ~ && ln -s ~/dotfiles/.zsh_profile .zsh_profile
+
+# .ssh/config
+cd ~/.ssh && ln -s ~/dotfiles/sshconfig config
+
+cd ~/dotfiles
