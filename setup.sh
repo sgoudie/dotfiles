@@ -85,6 +85,7 @@ apm install linter
 apm install minimap
 apm install linter-eslint
 apm install todo-show
+apm install emmet
 
 echo -e "${green}✓ Blammo! NPM packages installed.${reset}"
 sleep 2
