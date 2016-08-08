@@ -27,6 +27,7 @@ sleep 2
 ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
 brew install node
 brew install nvm
+brew install mongodb
 brew install git
 brew install git-extras
 

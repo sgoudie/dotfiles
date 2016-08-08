@@ -1,0 +1,24 @@
+"*":
+  core:
+    themes: [
+      "one-dark-ui"
+      "one-dark-syntax"
+    ]
+  editor:
+    fontFamily: "Input Mono"
+    fontSize: 15
+    invisibles: {}
+  "exception-reporting":
+    userId: "084b42f9-b536-c7a4-fc29-99df9fb5aa30"
+  "language-babel":
+    transpileOnSave: false
+  linter:
+    errorPanelHeight: 41
+  "linter-eslint":
+    globalNodePath: "/usr/local"
+  react: {}
+  "tree-view":
+    hideIgnoredNames: true
+    hideVcsIgnoredFiles: true
+  welcome:
+    showOnStartup: false
