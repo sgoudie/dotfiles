@@ -8,8 +8,13 @@ alias gpom='git push origin master'
 alias gpuom='git pull origin master'
 alias gp='git push '
 
+#meteor aliases
+alias app-start='meteor npm start'
+alias app-deploy='meteor npm run deploy-production'
+
 # doopoll aliases
 alias dp='cd ~/Dev/doopoll-app'
+alias gc-version='gc -m "Updated changelog and version number"'
 
 # OSX aliases
 alias hideFiles='defaults write com.apple.finder AppleShowAllFiles FALSE && killall Finder'
