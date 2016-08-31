@@ -45,6 +45,7 @@ sleep 2
 brew cask install virtualbox
 brew cask install vagrant
 brew cask install vagrant-manager
+vagrant plugin install vagrant-hostsupdater
 
 # Install browsers via Cask
 brew cask install google-chrome
