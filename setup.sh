@@ -88,9 +88,11 @@ sleep 2
 
 # Install NPM packages.
 npm install -g trash trash-cli
+npm install -g grunt
 npm install -g grunt-cli
 npm install -g gulp
 npm install -g eslint
+npm install -g bower
 
 # Install Atom packages.
 apm install linter
