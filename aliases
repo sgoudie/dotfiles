@@ -12,6 +12,9 @@ alias gp='git push '
 alias app-start='meteor npm start'
 alias app-deploy='meteor npm run deploy-production'
 
+#wordpress aliases
+alias vvvthemes='cd www/wordpress-default/wp-content/themes'
+
 # doopoll aliases
 alias dp='cd ~/Dev/doopoll-app'
 alias gc-version='gc -m "Updated changelog and version number"'
