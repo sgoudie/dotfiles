@@ -41,6 +41,11 @@ brew tap caskroom/versions
 echo -e "${green}✓ Blammo! Cask installed.${reset}"
 sleep 2
 
+# Install Wordpress Tools
+brew cask install virtualbox
+brew cask install vagrant
+brew cask install vagrant-manager
+
 # Install browsers via Cask
 brew cask install google-chrome
 brew cask install firefox
