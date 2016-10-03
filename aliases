@@ -17,6 +17,8 @@ alias vvvthemes='cd www/wordpress-default/wp-content/themes'
 
 # doopoll aliases
 alias dp='cd ~/Dev/doopoll-app'
+alias dpm='cd ~/Dev/doopoll-marketing'
+alias dpmlive='ssh root@178.62.45.50'
 alias gc-version='gc -m "Updated changelog and version number"'
 
 # OSX aliases
