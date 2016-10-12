@@ -4,11 +4,9 @@
 Host sgoudie
     User git
     HostName github.com
-    PreferredAuthentications publickey
     IdentityFile ~/.ssh/hello@sgoudie.com
 
 Host doopoll
     User git
     HostName github.com
-    PreferredAuthentications publickey
     IdentityFile ~/.ssh/sam@doopoll.co

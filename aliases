@@ -21,6 +21,10 @@ alias dpm='cd ~/Dev/doopoll-marketing'
 alias dpmlive='ssh root@178.62.45.50'
 alias gc-version='gc -m "Updated changelog and version number"'
 
+# makingthingsishard
+alias mtih='cd ~/Dev/makingthingsishard'
+alias mtihlive='ssh root@95.85.38.206'
+
 # OSX aliases
 alias hideFiles='defaults write com.apple.finder AppleShowAllFiles FALSE && killall Finder'
 alias showFiles='defaults write com.apple.finder AppleShowAllFiles TRUE && killall Finder'
