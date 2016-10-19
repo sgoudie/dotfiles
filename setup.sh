@@ -59,6 +59,7 @@ sleep 2
 brew cask install 1password
 brew cask install alfred
 brew cask install atom
+brew cask install bartender
 brew cask install dropbox
 brew cask install cloud
 brew cask install fantastical
@@ -68,6 +69,7 @@ brew cask install screenhero
 brew cask install sketch
 brew cask install sketch-toolbox
 brew cask install skype
+brew cask install spectacle
 brew cask install slack
 brew cask install spotify
 brew cask install transmit
