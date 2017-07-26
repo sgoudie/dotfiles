@@ -61,11 +61,10 @@ brew cask install alfred
 brew cask install atom
 brew cask install bartender
 brew cask install dropbox
-brew cask install cloud
 brew cask install fantastical
 brew cask install iterm2
 brew cask install keepingyouawake
-brew cask install screenhero
+brew cask install numi
 brew cask install sketch
 brew cask install sketch-toolbox
 brew cask install skype
@@ -95,26 +94,24 @@ npm install -g grunt
 npm install -g grunt-cli
 npm install -g gulp
 npm install -g eslint
-npm install -g bower
 
-# Install Atom packages.
-apm install linter
-apm install minimap
-apm install linter-eslint
-apm install linter-less
-apm install todo-show
-apm install emmet
-apm install react
+# Install Atom packages
 apm install autoclose-html
+apm install busy-signal
+apm install emmet
+apm install file-icons
+apm install intentions
+apm install linter
+apm install linter-eslint
+apm install linter-stylelint
+apm install linter-stylelint
+apm install minimap
+apm install pure-syntax
+apm install todo-show
+apm install react
+apm install zentabs
 
 echo -e "${green}✓ Blammo! NPM packages installed.${reset}"
-sleep 2
-
-# Install RubyGems
-gem install sass
-gem install compass
-
-echo -e "${green}✓ Blammo! Gems installed.${reset}"
 sleep 2
 
 # Complete!

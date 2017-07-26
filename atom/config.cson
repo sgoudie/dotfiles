@@ -2,7 +2,7 @@
   core:
     themes: [
       "one-dark-ui"
-      "one-dark-syntax"
+      "pure-syntax"
     ]
   editor:
     fontFamily: "Input Mono"
