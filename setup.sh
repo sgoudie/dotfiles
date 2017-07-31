@@ -63,7 +63,7 @@ brew cask install bartender
 brew cask install dropbox
 brew cask install fantastical
 brew cask install iterm2
-brew cask install keepingyouawake
+brew cask install lungo
 brew cask install numi
 brew cask install sketch
 brew cask install sketch-toolbox
