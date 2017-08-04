@@ -64,7 +64,7 @@ brew cask install dropbox
 brew cask install evernote
 brew cask install fantastical
 brew cask install iterm2
-brew cask install keepingyouawake
+brew cask install lungo
 brew cask install newton
 brew cask install numi
 brew cask install sketch
