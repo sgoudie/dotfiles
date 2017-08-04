@@ -61,9 +61,11 @@ brew cask install alfred
 brew cask install atom
 brew cask install bartender
 brew cask install dropbox
+brew cask install evernote
 brew cask install fantastical
 brew cask install iterm2
 brew cask install keepingyouawake
+brew cask install newton
 brew cask install numi
 brew cask install sketch
 brew cask install sketch-toolbox
@@ -71,6 +73,7 @@ brew cask install skype
 brew cask install spectacle
 brew cask install slack
 brew cask install spotify
+brew cask install todoist
 brew cask install transmit
 
 echo -e "${green}✓ Blammo! OSX applications installed.${reset}"
@@ -89,11 +92,14 @@ echo -e "${green}✓ Blammo! Meteor installed.${reset}"
 sleep 2
 
 # Install NPM packages.
-npm install -g trash trash-cli
+npm install -g eslint
+npm install -g gatsby
 npm install -g grunt
 npm install -g grunt-cli
 npm install -g gulp
-npm install -g eslint
+npm install -g surge
+npm install -g trash trash-cli
+
 
 # Install Atom packages
 apm install autoclose-html
