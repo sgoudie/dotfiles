@@ -56,16 +56,15 @@ echo -e "${green}✓ Blammo! Browsers installed.${reset}"
 sleep 2
 
 # Install applications via Cask
+# Remember some apps are better left managed on the app store
 brew cask install 1password
 brew cask install alfred
 brew cask install atom
 brew cask install bartender
 brew cask install dropbox
-brew cask install evernote
 brew cask install fantastical
 brew cask install iterm2
 brew cask install lungo
-brew cask install newton
 brew cask install numi
 brew cask install sketch
 brew cask install sketch-toolbox
@@ -73,7 +72,6 @@ brew cask install skype
 brew cask install spectacle
 brew cask install slack
 brew cask install spotify
-brew cask install todoist
 brew cask install transmit
 
 echo -e "${green}✓ Blammo! OSX applications installed.${reset}"
