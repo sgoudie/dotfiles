@@ -49,7 +49,7 @@ brew cask install lungo
 brew cask install sketch
 brew cask install spectacle
 brew cask install spotify
-brew cask install zoom
+brew cask install zoomus
 
 echo -e "${green}✓ Blammo! OSX applications installed.${reset}"
 sleep 2
