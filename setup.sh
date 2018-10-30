@@ -13,11 +13,6 @@ sleep 2
 # Prompt for SUDO before starting the waterfall :)
 sudo -l
 
-# Set some defaults for OSX
-source osx
-echo -e "${green}✓ Blammo! OSX Defaults set.${reset}"
-sleep 2
-
 # Setup OhMyZSH
 curl -L http://install.ohmyz.sh | sh
 echo -e "${green}✓ Blammo! OhMyZSH installed.${reset}"
@@ -41,38 +36,20 @@ brew tap caskroom/versions
 echo -e "${green}✓ Blammo! Cask installed.${reset}"
 sleep 2
 
-# Install Wordpress Tools
-brew cask install virtualbox
-brew cask install vagrant
-brew cask install vagrant-manager
-vagrant plugin install vagrant-hostsupdater
-
-# Install browsers via Cask
-brew cask install google-chrome
-brew cask install firefox
-brew cask install opera
-
 echo -e "${green}✓ Blammo! Browsers installed.${reset}"
 sleep 2
 
 # Install applications via Cask
 # Remember some apps are better left managed on the app store
 brew cask install 1password
-brew cask install alfred
-brew cask install atom
-brew cask install bartender
 brew cask install dropbox
 brew cask install fantastical
 brew cask install iterm2
 brew cask install lungo
-brew cask install numi
 brew cask install sketch
-brew cask install sketch-toolbox
-brew cask install skype
 brew cask install spectacle
-brew cask install slack
 brew cask install spotify
-brew cask install transmit
+brew cask install zoom
 
 echo -e "${green}✓ Blammo! OSX applications installed.${reset}"
 sleep 2
@@ -95,25 +72,6 @@ npm install -g gatsby
 npm install -g grunt
 npm install -g grunt-cli
 npm install -g gulp
-npm install -g surge
-npm install -g trash trash-cli
-
-
-# Install Atom packages
-apm install autoclose-html
-apm install busy-signal
-apm install emmet
-apm install file-icons
-apm install intentions
-apm install linter
-apm install linter-eslint
-apm install linter-stylelint
-apm install linter-stylelint
-apm install minimap
-apm install pure-syntax
-apm install todo-show
-apm install react
-apm install zentabs
 
 echo -e "${green}✓ Blammo! NPM packages installed.${reset}"
 sleep 2

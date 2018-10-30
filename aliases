@@ -3,27 +3,7 @@ alias gs='git status'
 alias gc='git commit'
 alias gl='git log'
 alias ga='git add'
-alias gpo='git push origin '
-alias gpom='git push origin master'
-alias gpuom='git pull origin master'
-alias gp='git push '
-
-#meteor aliases
-alias app-start='meteor npm start'
-alias app-deploy='meteor npm run deploy-production'
-
-#wordpress aliases
-alias vvvthemes='cd www/wordpress-default/wp-content/themes'
-
-# doopoll aliases
-alias dp='cd ~/Dev/doopoll-app'
-alias dpm='cd ~/Dev/doopoll-marketing'
-alias dpmlive='ssh root@178.62.45.50'
-alias gc-version='gc -m "Updated changelog and version number"'
-
-# makingthingsishard
-alias mtih='cd ~/Dev/makingthingsishard'
-alias mtihlive='ssh root@95.85.38.206'
+alias gp='git push'
 
 # OSX aliases
 alias hideFiles='defaults write com.apple.finder AppleShowAllFiles FALSE && killall Finder'

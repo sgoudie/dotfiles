@@ -8,6 +8,5 @@ Fresh starts made easier. My personal .files.
 
 You'll need to add:
 - SSH keys
-- Do some atom stuff (like snippets)
 - Install some fonts
 - You might need to manually copy the link to aliases for ZSHRC
