@@ -25,6 +25,7 @@ brew install nvm
 brew install mongodb
 brew install git
 brew install git-extras
+brew install yarn
 
 echo -e "${green}✓ Blammo! Homebrew, Node, and NVM installed.${reset}"
 sleep 2
