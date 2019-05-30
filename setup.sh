@@ -47,12 +47,14 @@ brew cask install aerial
 brew cask install airtable
 brew cask install dropbox
 brew cask install fantastical
+brew cask install insomnia
 brew cask install iterm2
 brew cask install lungo
 brew cask install numi
 brew cask install sketch
 brew cask install spectacle
 brew cask install spotify
+brew cask install visual-studio-code
 brew cask install zoomus
 
 echo -e "${green}✓ Blammo! OSX applications installed.${reset}"
